@@ -60,8 +60,12 @@ public class Principal {
         Vehiculo coche3 = new Vehiculo("ram","Ford","Rojo",
                 "100 litros",300,5000,"SJD456L","11/11/2022");
 
-
-
+        System.out.println("-----------------Coche1-----------------");
+        coche1.show();
+        System.out.println("-----------------Coche2-----------------");
+        coche2.mostrar();
+        System.out.println("-----------------Coche3-----------------");
+        coche3.show();
     }
 
 

@@ -9,6 +9,7 @@ public class Vehiculo {
     private int cilindrada;
     private String matricula;
     private String fechaMatriculacion;
+
     private static String tipo;
 
     public Vehiculo() {
@@ -89,5 +90,35 @@ public class Vehiculo {
     public void setFechaMatriculacion(String fechaMatriculacion) {
         this.fechaMatriculacion = fechaMatriculacion;
     }
+
+
+    public void mostrar(){
+
+        System.out.println("El modelo es: "+getModelo());
+        System.out.println("La marca es: "+getMarca());
+        System.out.println("El color es: "+getColor());
+        System.out.println("El combustible es: "+getCombustible());
+        System.out.println("La potencia es: "+getPotencia());
+        System.out.println("La cilindrada es: "+getCilindrada());
+        System.out.println("La matrícula es: "+getMatricula());
+        System.out.println("La fecha de matriculación es: "+getFechaMatriculacion());
+    }
+    public void show(){
+        System.out.println("El modelo es: "+modelo);
+        System.out.println("La marca es: "+marca);
+        System.out.println("El color es: "+color);
+        System.out.println("El combustible es: "+combustible);
+        System.out.println("La potencia es: "+potencia);
+        System.out.println("La cilindrada es: "+cilindrada);
+        System.out.println("La matrícula es: "+matricula);
+        System.out.println("La fecha de matriculación es: "+fechaMatriculacion);
+    }
+    public tiempo(int mes, int ano){
+        
+
+    }
+
+
+
 
 }
